@@ -1,0 +1,47 @@
+﻿La génération a démarré 15/09/2016 12:01:42.
+     1>Projet "C:\Users\llabadie\Documents\MPOO\TP1_Bataille\TP1_Bataille\TP1_Bataille.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bataille.cpp Carte.cpp Joueur.cpp principal.cpp
+         principal.cpp
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(12): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(12): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(15): error C2061: erreur de syntaxe : identificateur 'Carte'
+         Joueur.cpp
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\carte.h(51): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\carte.h(51): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\carte.h(78): error C2061: erreur de syntaxe : identificateur 'Joueur'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\carte.h(78): error C2535: 'Carte::Carte(Couleur,Figure)' : fonction membre déjà définie ou déclarée
+                 c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\carte.h(75) : voir la déclaration de 'Carte::Carte'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\carte.h(79): error C2061: erreur de syntaxe : identificateur 'Joueur'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\carte.h(79): error C2535: 'Carte::Carte(Couleur,Figure)' : fonction membre déjà définie ou déclarée
+                 c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\carte.h(75) : voir la déclaration de 'Carte::Carte'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\carte.h(85): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\carte.h(85): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\carte.h(85): warning C4183: 'getJoueur' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\carte.h(86): error C2061: erreur de syntaxe : identificateur 'Joueur'
+         Carte.cpp
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(12): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(12): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(15): error C2061: erreur de syntaxe : identificateur 'Carte'
+         Bataille.cpp
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(12): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(12): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(15): error C2061: erreur de syntaxe : identificateur 'Carte'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\bataille.cpp(12): error C2039: 'nouveauTour' : n'est pas membre de 'Joueur'
+                 c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(9) : voir la déclaration de 'Joueur'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\bataille.cpp(13): error C2039: 'nouveauTour' : n'est pas membre de 'Joueur'
+                 c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(9) : voir la déclaration de 'Joueur'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\bataille.cpp(16): error C2039: 'toString' : n'est pas membre de 'Joueur'
+                 c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(9) : voir la déclaration de 'Joueur'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\bataille.cpp(17): error C2039: 'toString' : n'est pas membre de 'Joueur'
+                 c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(9) : voir la déclaration de 'Joueur'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\bataille.cpp(21): error C2039: 'aperdu' : n'est pas membre de 'Joueur'
+                 c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(9) : voir la déclaration de 'Joueur'
+                 c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\joueur.h(9) : voir la déclaration de 'Joueur'
+     1>c:\users\llabadie\documents\mpoo\tp1_bataille\tp1_bataille\bataille.cpp(21): fatal error C1903: impossible de récupérer à partir des erreurs précédentes ; arrêt de la compilation
+         Génération de code en cours...
+     1>Génération du projet "C:\Users\llabadie\Documents\MPOO\TP1_Bataille\TP1_Bataille\TP1_Bataille.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:01.11
